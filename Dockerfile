@@ -18,7 +18,7 @@ WORKDIR /app
 
 RUN echo "Copying LibreChat configuration file into the /app directory..."
 # Copy the librechat.yaml file into the /app directory
-COPY librechat.example.yaml /app/
+COPY config.yaml /app
 
 USER node
 
