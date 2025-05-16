@@ -16,6 +16,7 @@ RUN uv --version
 RUN mkdir -p /app && chown node:node /app
 WORKDIR /app
 
+RUN echo "Copying LibreChat configuration file into the /app directory..."
 # Copy the librechat.yaml file into the /app directory
 COPY librechat.example.yaml /app/
 
