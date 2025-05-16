@@ -17,7 +17,7 @@ RUN mkdir -p /app && chown node:node /app
 WORKDIR /app
 
 # Copy the librechat.yaml file into the /app directory
-COPY librechat.yaml /app/
+COPY librechat.example.yaml /app/
 
 USER node
 
