@@ -13,5 +13,8 @@ librechat*
 Dockerfile*
 docs
 
+# *** Unignore librechat.yaml ***
+!librechat.yaml
+
 # Ignore all hidden files
 .*
